@@ -2,12 +2,32 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="datos para asociación">
+    <meta name="description" content="datos-para-incripción">
     <title>Formulario Gym</title>
 </head>
 <body>
+    <h2>Formulario para inscripción</h2>
     <form>
-        
+        <div>
+            <label>Nombre</label>
+            <input type="text" required autocomplete="name" minlength="2" maxlength="20">
+        </div>
+        <div>
+            <label>Apellido</label>
+            <input type="text" required autocomplete="name" minlength="2" maxlength="20">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="text" required autocomplete="name" minlength="2" maxlength="255">
+        </div>
+        <div>
+            <label>DNI/CUIL/CUIT</label>
+            <input type="number" required pattern="\d{2}-?\d{8}-?\{1}">
+        </div>       
+        <div>
+            <label>Altura (cm)</label>
+            <input 
+        </div>
     </form>
     
 </body>
